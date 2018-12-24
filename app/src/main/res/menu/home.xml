@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.MainActivity" >
+
+
+        <item android:id="@+id/action_search"
+            android:title="@string/search"
+            android:icon="@android:drawable/ic_menu_search"
+            app:actionViewClass="android.widget.SearchView"
+            app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/empty"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/mnuOverFlow"
+        android:orderInCategory="101">
+
+
+        <menu>
+
+
+            <item android:id="@+id/mnuAuthor"
+                android:title="@string/mnuAuthor"
+                android:icon="@drawable/faceic" />
+
+            <item android:id="@+id/mnuCategory"
+                android:title="@string/mnuCategory"
+                android:icon="@drawable/categoryic" />
+
+
+            <item android:id="@+id/mnuSortOrder"
+                android:title="@string/mnuSortOrder"
+                android:icon="@drawable/accdecic" />
+
+            <!--<item android:id="@+id/mnuRandom"-->
+                <!--android:title="@string/mnuRandom"-->
+                <!--android:icon="@drawable/quoteic"-->
+               <!--/>-->
+
+         </menu>
+
+    </item>
+
+</menu>

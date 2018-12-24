@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "925377461539",
+    "firebase_url": "https://quotes-27f71.firebaseio.com",
+    "project_id": "quotes-27f71",
+    "storage_bucket": "quotes-27f71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925377461539:android:bd0d98237931b6ef",
+        "android_client_info": {
+          "package_name": "com.example.mansi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925377461539-melk1a7gmhhr1bfilbqkk4230u14rgb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXeYIL8RMAiAaQTsdHOCapO9YOJex4V90"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
